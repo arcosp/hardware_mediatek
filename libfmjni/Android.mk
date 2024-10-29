@@ -13,6 +13,7 @@
 # limitations under the License.
 
 ifeq ($(BOARD_HAVE_MTK_FM),true)
+ifneq ($(BOARD_USES_PREBUILT_FMJNI),true)
 
 LOCAL_PATH := $(call my-dir)
 
@@ -40,4 +41,5 @@ LOCAL_SHARED_LIBRARIES := \
 
 include $(BUILD_SHARED_LIBRARY)
 
+endif # BOARD_USES_PREBUILT_FMJNI
 endif # BOARD_HAVE_MTK_FM
