@@ -1,5 +1,5 @@
 cc_library {
-    name: "android.hardware.bluetooth@1.0-impl",
+    name: "android.hardware.bluetooth@1.0-impl.mtk",
     defaults: [
         "hidl_defaults",
     ],
