@@ -6,7 +6,6 @@ cc_library {
     vendor: true,
     relative_install_path: "hw",
     srcs: [
-        "bluetooth_hci.cc",
         "bluetooth_address.cc",
         "vendor_interface.cc",
     ],
